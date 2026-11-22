@@ -182,3 +182,8 @@
 - V6：CapCut 無料AI読み上げ（https://www.capcut.com/ja-jp/features/free-ai-text-to-speech ・確認日：2026-11-22）
 - V7：Instagram リールのテキスト読み上げ（https://appllio.com/news/2021-11-15-19851-instagram-reels-neweffects ・確認日：2026-11-22）※2021年の記事
 - 参照したファイル：`10-script-writer.md`（第3稿）、`19-subtitle-writer.md`、`00-progress-manager.md`、`rules/tone.md`、`rules/approval.md`、`templates/handoff.md`
+
+## 追記（2026-11-22）：音声ツールの決定
+- 当面：CanvaのAI音声（本人の決定）。Canva「AI Product Terms」（https://www.canva.com/ja_jp/policies/ai-product-terms/ ・確認日：2026-11-22・検索結果の抜粋のみ）では、音声を含む生成物は利用者のものとされる。商用利用の扱いの全文は未確認＝**要確認**（本人がページで確認）。
+- 将来：収入が出たらElevenLabsの有料プラン（Starter）。公式ヘルプ（https://elevenlabs.io/docs/help-center/legal/can-i-publish-the-content-i-generate-on-the-platform ・確認日：2026-11-22）で「有料プランは商用ライセンス付き」「無料プランは商用不可・クレジット必須」と確認。**無料プランで作った音声は投稿に使わない。**
+- 候補の声（ElevenLabs）：Mio（jDIcRgSETu4QTbxPgjmn）で試し録り済み。ほかの候補はKontomo・AAA・soya・Honoka。
