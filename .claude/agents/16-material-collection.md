@@ -20,6 +20,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 ## 出力形式
 - `projects/<フォルダ>/16-material-collection.md`
 - 表：「シーン｜必要な素材｜入手先（Canva検索語／URL）｜ライセンス（確認済み／不明）｜担当（16／17／18）」
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 全シーンに素材の入手先か担当の割り振りがある。

@@ -22,6 +22,7 @@ tools: Read, Write, Glob, Grep
 ## 出力形式
 - `projects/<フォルダ>/26-metrics-analysis.md`（`templates/analysis.md` 形式）
 - 週次のまとめ（本人がスプレッドシート「月1万円 収益化プラン」に転記しやすい形）
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 共有された全数値が記録され、段階別の評価と仮説が書かれている。

@@ -34,6 +34,7 @@ SKILLS = ["reel-production", "idea-generation", "planning-meeting", "rule-update
 REEL_REQUIRED = [
     "★承認1", "★承認2", "★承認3", "不足情報",
     "承認なしで次の工程に進まない", "要確認",
+    "『次へ』『OK』だけでは承認とみなさない",
 ]
 TEMPLATES = [
     "handoff.md", "script.md", "canva-brief.md", "caption.md",
@@ -88,6 +89,16 @@ def check_agents() -> list:
                 errs.append(f"{name}: heading missing '{h}'")
         if "## やらないこと" in text and not section_body(text, "## やらないこと"):
             errs.append(f"{name}: 'やらないこと' is empty")
+    for name in AGENTS:
+        p = d / f"{name}.md"
+        if p.exists() and "templates/handoff.md" not in section_body(read(p), "## 出力形式"):
+            errs.append(f"{name}: 出力形式 must require templates/handoff.md")
+    qc = d / "22-quality-check.md"
+    if qc.exists():
+        body = section_body(read(qc), "## 入力情報")
+        for w in ("00", "24"):
+            if w not in body:
+                errs.append(f"22-quality-check: 入力情報 must include {w}")
     fc = d / "14-fact-check.md"
     if fc.exists():
         t = read(fc)
@@ -128,6 +139,10 @@ def check_skills() -> list:
             errs.append(f"skill {s}: frontmatter name must be '{s}'")
         if not fm.get("description"):
             errs.append(f"skill {s}: frontmatter description missing")
+        if s == "rule-update":
+            for w in ("Grep", "CLAUDE.md", "templates"):
+                if w not in text:
+                    errs.append(f"rule-update: must search copies ('{w}')")
         if s == "reel-production":
             for w in REEL_REQUIRED:
                 if w not in text:

@@ -20,6 +20,7 @@ tools: Read, Write, Glob, Grep
 
 ## 出力形式
 - `projects/<フォルダ>/20-video-editing.md`（`templates/canva-brief.md` 形式）
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 全シーンが素材・字幕・音声とひもづいている。

@@ -20,6 +20,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 ## 出力形式
 - `projects/<フォルダ>/03-post-collection.md`（ネタ出し時は `ideas/` への提案メモ）
 - 表：「URL｜フックの言葉｜構成の型｜CTA｜確認できた反応（なければ不明）｜確認日」
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 収集した各投稿にURLか「本人提供」の記載がある。

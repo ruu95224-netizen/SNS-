@@ -22,6 +22,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 ## 出力形式
 - `projects/<フォルダ>/02-competitor-research.md`
 - 表：「アカウント｜切り口｜構成の型｜導線｜確認日」、「差別化ポイント」3つ以内
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 差別化ポイントが、臨床視点と結びついた形で書かれている。

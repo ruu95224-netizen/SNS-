@@ -21,6 +21,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 ## 出力形式
 - `projects/<フォルダ>/01-market-research.md`
 - 表：「分かったこと｜出典（URL・確認日）｜強さ（A/B/C）」、「よく使われる悩みの言葉」リスト、「不明だったこと」リスト
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 各項目に出典か「不明」が付いている。

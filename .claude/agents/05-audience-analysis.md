@@ -20,6 +20,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 ## 出力形式
 - `projects/<フォルダ>/05-audience-analysis.md`
 - 「場面」「悩みの言葉」「よくある誤解」の3つのリスト（出どころ：コメント／調査／推定 を明記）
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 各項目に出どころがあり、「推定」のものは推定と明記されている。

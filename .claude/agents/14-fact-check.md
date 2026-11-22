@@ -24,6 +24,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 - `projects/<フォルダ>/14-fact-check.md`
 - 表：「主張｜根拠ID｜出典（URL・確認日）｜強さ｜判定（OK／言い方修正／削除／要確認）｜修正案」
 - 要確認リスト（本人への質問の形で）
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - すべての主張に判定が付いている。

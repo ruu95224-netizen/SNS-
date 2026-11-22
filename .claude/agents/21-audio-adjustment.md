@@ -21,6 +21,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 ## 出力形式
 - `projects/<フォルダ>/21-audio-adjustment.md`
 - 「声の設定」「読みの指定表」「BGM・音量」「（未決定時）ツール比較表」
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 台本の全文に対して読みと間の指定がそろっている。

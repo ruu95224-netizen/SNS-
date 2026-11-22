@@ -20,6 +20,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 ## 出力形式
 - `projects/<フォルダ>/04-trend-research.md`
 - 「季節の切り口」リスト、「見せ方の傾向」リスト（各項目に出典または「本人確認が必要」）
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 季節の切り口が1つ以上ある、または「該当なし」と書かれている。

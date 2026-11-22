@@ -21,6 +21,7 @@ tools: Read, Write, Edit, Glob, Grep
 ## 出力形式
 - `projects/<フォルダ>/23-post-management.md`（投稿前チェックリスト・投稿記録）
 - 投稿カレンダーは `projects/README.md` と同じ階層の `projects/calendar.md` に置く（なければ作る）
+- 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 
 ## 完了条件
 - 投稿記録にURLが入り、数値共有の依頼が本人に伝わっている。
