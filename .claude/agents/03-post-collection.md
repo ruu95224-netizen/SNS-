@@ -18,7 +18,7 @@ tools: Read, Write, Glob, Grep, WebSearch, WebFetch
 3. 反応の数値は画面で確認できたものだけ書く。推測しない。
 
 ## 出力形式
-- `projects/<フォルダ>/03-post-collection.md`（ネタ出し時は `ideas/` への提案メモ）
+- `projects/<フォルダ>/03-post-collection.md`（ネタ出し時は `ideas/seeds-YYYY-MM-DD.md` の「03 投稿収集」の見出しの下に書く。`ideas/backlog.md` には書かない）
 - 表：「URL｜フックの言葉｜構成の型｜CTA｜確認できた反応（なければ不明）｜確認日」
 - 末尾に `templates/handoff.md` の引き継ぎシート（渡すもの／未解決事項〈不明・要確認〉／次の担当への注意／参照した根拠）を必ず付ける
 

@@ -72,7 +72,7 @@ CLAUDE.md                     … チームの使い方・全体ルールの入�
 docs/ruru-strategy.md         … 元資料（作戦まとめ）
 .claude/agents/               … 28人の担当定義（1人1ファイル）
   00-progress-manager.md      … 進行管理（司令塔）
-  01-market-research.md … 27-improvement.md
+  01-market-research.md … 27-improvement-proposal.md
 .claude/skills/
   reel-production/SKILL.md    … 「リール1本作って」の全工程手順
   planning-meeting/SKILL.md   … 企画会議の進め方

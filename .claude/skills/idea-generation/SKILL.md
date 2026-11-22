@@ -8,7 +8,7 @@ description: 「ネタ出して」と言われたとき（または週1回の定
 
 ## 手順
 1. `ideas/backlog.md`、過去の `projects/`、`rules/brand.md`（テーマ配分）、`rules/ng-planning.md` を読む。
-2. ネタの種を集める（必要な担当だけ呼ぶ）：
+2. ネタの種を集める（必要な担当だけ呼ぶ）。各担当は `ideas/seeds-YYYY-MM-DD.md` に自分の番号と名前の見出しを立てて書く（`ideas/backlog.md` に書くのは 06 だけ）：
    - 03 post-collection：テーマ周辺で伸びている投稿の型
    - 04 trend-research：季節・時期の切り口
    - 05 audience-analysis：悩みの言葉・場面
