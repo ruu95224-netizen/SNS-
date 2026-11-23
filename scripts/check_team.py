@@ -30,7 +30,7 @@ RULES = [
     "brand.md", "tone.md", "ng-expressions.md", "ng-planning.md",
     "evidence.md", "metrics.md", "approval.md", "CHANGELOG.md",
 ]
-SKILLS = ["reel-production", "idea-generation", "planning-meeting", "rule-update"]
+SKILLS = ["reel-production", "idea-generation", "planning-meeting", "rule-update", "threads-weekly"]
 REEL_REQUIRED = [
     "★承認1", "★承認2", "★承認3", "不足情報",
     "承認なしで次の工程に進まない", "要確認",

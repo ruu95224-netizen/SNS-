@@ -15,6 +15,7 @@
 | 「ネタ出して」 | `idea-generation` |
 | 「会議して：○○」 | `planning-meeting` |
 | 「ルール追加：○○」「ルール変更：○○」 | `rule-update` |
+| 「Threads作って」（毎週日曜19:43の定期タスクでも自動で動く） | `threads-weekly` |
 
 ## 作業前に必ず読むルール（`rules/`）
 - `brand.md` 発信者・ターゲット・カラー・導線
@@ -37,6 +38,7 @@
 - `projects/YYYY-MM-DD-<テーマ>/NN-slug.md` リール1本ごとの成果物
 - `ideas/backlog.md` ネタ帳
 - `meetings/` 企画会議の議事録
+- `threads/YYYY-MM-DD週/` Threads週次投稿（月曜の日付）。`threads/room-items.md`・`threads/note-articles.md` に導線先を記録
 - `templates/` 成果物の書式
 
 ## 検証
