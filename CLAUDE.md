@@ -15,7 +15,7 @@
 | 「ネタ出して」 | `idea-generation` |
 | 「会議して：○○」 | `planning-meeting` |
 | 「ルール追加：○○」「ルール変更：○○」 | `rule-update` |
-| 「Threads作って」（毎週日曜19:43の定期タスクでも自動で動く） | `threads-weekly` |
+| 「Threads作って」（毎週日曜18:13開始の定期タスクでも自動で動く） | `threads-weekly` |
 
 ## 作業前に必ず読むルール（`rules/`）
 - `brand.md` 発信者・ターゲット・カラー・導線
