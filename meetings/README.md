@@ -1,4 +1,6 @@
-# meetings（企画会議）
+# meetings（企画会議・全体会議）
+
+- 全体会議（毎週末、部署どうしの情報共有）：`all-hands-meeting` スキル、書式 `templates/all-hands.md`、部署一覧 `meetings/部署一覧.md`
 
 議事録の書式：`templates/meeting.md`／ファイル名：`YYYY-MM-DD-<議題>.md`
 

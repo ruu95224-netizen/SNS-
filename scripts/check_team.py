@@ -30,7 +30,7 @@ RULES = [
     "brand.md", "tone.md", "ng-expressions.md", "ng-planning.md",
     "evidence.md", "metrics.md", "approval.md", "CHANGELOG.md",
 ]
-SKILLS = ["reel-production", "idea-generation", "planning-meeting", "rule-update", "threads-weekly"]
+SKILLS = ["reel-production", "idea-generation", "planning-meeting", "rule-update", "threads-weekly", "all-hands-meeting"]
 REEL_REQUIRED = [
     "★承認1", "★承認2", "★承認3", "不足情報",
     "承認なしで次の工程に進まない", "要確認",
@@ -38,7 +38,7 @@ REEL_REQUIRED = [
 ]
 TEMPLATES = [
     "handoff.md", "script.md", "canva-brief.md", "caption.md",
-    "analysis.md", "idea.md", "meeting.md",
+    "analysis.md", "idea.md", "meeting.md", "all-hands.md",
 ]
 OTHER_FILES = ["CLAUDE.md", "ideas/backlog.md", "projects/README.md", "meetings/README.md"]
 
